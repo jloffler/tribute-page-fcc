@@ -3,6 +3,7 @@ Note to self: default branch is *main* not master
 # ToDo
  - Draw layout
  - Create code structure/table of contents
+ - Choose who or what to tribute
  - Write html
  - Write css
 
