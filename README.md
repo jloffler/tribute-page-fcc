@@ -6,6 +6,7 @@ Note to self: default branch is *main* not master
  - Choose who or what to tribute
  - Write html
  - Write css
+ - Add favicon
 
 # Live site on GitHub Pages
  - URL here when project complete
