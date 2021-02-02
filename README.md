@@ -1,9 +1,12 @@
 Note to self: default branch is *main* not master
 
+# Current task
+ - Create html structure
+
 # ToDo
  - Draw layout
  - Create code structure/table of contents
- - Choose who or what to tribute
+ - Choose who or what to tribute: Chris Hadfield
  - Write html
  - Write css
  - Add favicon
