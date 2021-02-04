@@ -39,15 +39,16 @@ footer picture of earth from space - fixed in background
 
 <body>
 <main id="main"> <!-- fcc "should contain all other elements" -->
-<img id="splash-image">
+
+<img id="splash-image"> <!-- Space Station -->
 <h1 id="title">Chris Hadfield</h1> <!-- fcc "must contain a string" -->
 <div id="img-div"> <!-- fcc -->
   <!-- 
-    fcc #image must:
-     - Within #img-div 
-     - Responsively resize relative parent width
-     - Not exceed original size
-     - Centered within parent
+  fcc #image must:
+   - Be within #img-div 
+   - Responsively resize relative parent width
+   - Not exceed original size
+   - Be centered within parent
   -->
   <img id="image">
   <figcaption id="image-caption">Image caption</figcaption> <!-- fcc "within img-div" -->
@@ -55,10 +56,14 @@ footer picture of earth from space - fixed in background
 <p id="tribute-info"> <!-- fcc "textual content describing subject" -->
   lorem ipsum gipsum board drywally
 </p>
-<a id="tribute-link" target="_blank">  <!-- fcc _blank opens new tab -->
-  Learn more link
-</a>
-
+<div class="external-links">
+  <a id="tribute-link" target="_blank">  <!-- fcc _blank opens new tab -->
+    Wikipedia
+  </a>
+  <a target="_blank">Twitter</a>
+  <a target="_blank">Book Website</a>
+</div>
+<img id="footer-image"> <!-- Earth Horizon from ISS -->
 
 
 </main>  

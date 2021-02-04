@@ -2,14 +2,20 @@ Note to self: default branch is *main* not master
 
 # Current task
  - Create html structure
+ - add other elements needed not required by fcc
 
 # ToDo
- - Draw layout
- - Create code structure/table of contents
- - Choose who or what to tribute: Chris Hadfield
  - Write html
+ - Non-programming  
+    - Find ISS photo to use as splash
+    - Find Earth from space to use as footer
+    - Find Portrait of Chris
+    - Find youtube video of guitar to embed
+    - Find favicon of iss or russian thingy
+    - Find Wikipedia page link
+    - Find Twitter page link
+    - Find book website link
  - Write css
- - Add favicon
 
 # Live site on GitHub Pages
  - URL here when project complete
