@@ -39,8 +39,14 @@ footer picture of earth from space - fixed in background
 
 <body>
 <main id="main"> <!-- fcc "should contain all other elements" -->
-
-<img id="splash-image"> <!-- Space Station -->
+<img
+  id="splash-image"
+  src="img/splash.jpg"
+  height="1080px"
+  width="1920px"
+  loading="eager"
+  alt="A human many kilometres above the Earth on a spacewalk"
+>
 <h1 id="title">Chris Hadfield</h1> <!-- fcc "must contain a string" -->
 <div id="img-div"> <!-- fcc -->
   <!-- 
@@ -63,8 +69,10 @@ footer picture of earth from space - fixed in background
   <a target="_blank">Twitter</a>
   <a target="_blank">Book Website</a>
 </div>
-<img id="footer-image"> <!-- Earth Horizon from ISS -->
-
+<img id="footer-image" loading="lazy"> <!-- Earth Horizon from ISS -->
+<footer>
+  <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
+</footer>
 
 </main>  
 </body>
