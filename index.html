@@ -47,32 +47,38 @@ footer picture of earth from space - fixed in background
   loading="eager"
   alt="A human many kilometres above the Earth on a spacewalk"
 >
-<h1 id="title">Chris Hadfield</h1> <!-- fcc "must contain a string" -->
-<div id="img-div"> <!-- fcc -->
-  <!-- 
-  fcc #image must:
-   - Be within #img-div 
-   - Responsively resize relative parent width
-   - Not exceed original size
-   - Be centered within parent
-  -->
-  <img id="image">
-  <figcaption id="image-caption">Image caption</figcaption> <!-- fcc "within img-div" -->
-</div>
-<p id="tribute-info"> <!-- fcc "textual content describing subject" -->
-  lorem ipsum gipsum board drywally
-</p>
-<div class="external-links">
-  <a id="tribute-link" target="_blank">  <!-- fcc _blank opens new tab -->
-    Wikipedia
-  </a>
-  <a target="_blank">Twitter</a>
-  <a target="_blank">Book Website</a>
-</div>
-<img id="footer-image" loading="lazy"> <!-- Earth Horizon from ISS -->
-<footer>
-  <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
-</footer>
-
+<div class="content-wrap">
+  <header>
+    <h1 class="splash-quote">
+      It was the most magnificent experience of my life. Alone in a one-person spaceship (my suit), just holding on with my one hand, with the bottomless black universe on my left and the World pouring by in technicolour on my right. I highly recommend it.
+    </h1>
+    <h2 id="title">Chris Hadfield</h1> <!-- fcc "must contain a string" -->
+  </header>
+  <div id="img-div"> <!-- fcc -->
+    <!-- 
+    fcc #image must:
+     - Be within #img-div 
+     - Responsively resize relative parent width
+     - Not exceed original size
+     - Be centered within parent
+    -->
+    <img id="image">
+    <figcaption id="image-caption">Image caption</figcaption> <!-- fcc "within img-div" -->
+  </div>
+  <p id="tribute-info"> <!-- fcc "textual content describing subject" -->
+    lorem ipsum gipsum board drywally
+  </p>
+  <div class="external-links">
+    <a id="tribute-link" target="_blank">  <!-- fcc _blank opens new tab -->
+      Wikipedia
+    </a>
+    <a target="_blank">Twitter</a>
+    <a target="_blank">Book Website</a>
+  </div>
+  <img id="footer-image" loading="lazy"> <!-- Earth Horizon from ISS -->
+  <footer>
+    <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
+  </footer>
+</div> <!-- .content-wrap -->
 </main>  
 </body>
