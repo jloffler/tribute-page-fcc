@@ -9,6 +9,7 @@ Swatch colours
 === === === */
 
 /*
+Table of Conents
  - Resets and overrides
  - Links and type
  - Main layout
@@ -16,3 +17,11 @@ Swatch colours
  - Form elements
  - Misc
  */
+
+/* *** Resets and Overrides *** */
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
