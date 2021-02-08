@@ -19,9 +19,49 @@ Table of Conents
  */
 
 /* *** Resets and Overrides *** */
-
 body {
   margin: 0;
   padding: 0;
-  
+  height: 100%;
+  background-color: #fff;
+}
+
+/* *** Links and Type *** */
+body { font-family: arial, sans-serif; }
+
+/* *** Main Layout *** */
+
+/* What to do here?!!?!?!?!?!?! */
+main {
+  position: relative;
+}
+
+h1 {
+  color: blue;
+}
+
+/* *** Secondary Layout Structures *** */
+#splash-image {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: vh;
+  width: auto;
+  z-index: -2;
+}
+
+.for-testing {
+  height: 1px;
+  margin: 1080px;
+}
+
+#footer-image {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: vw;
+  height: auto;
+  z-index: -1;
 }

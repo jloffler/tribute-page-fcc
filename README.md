@@ -7,6 +7,7 @@ Note to self: default branch is *main* not master
 # ToDo
  - Write html
  - Add an aside with big accomplishments or just use bullet point style for whole article?
+ -Is it better to set the #splash-image as body background?
  - Non-programming  
     - Find ISS photo to use as splash
     - Find Earth from space to use as footer
