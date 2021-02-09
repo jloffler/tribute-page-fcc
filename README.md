@@ -32,6 +32,11 @@ freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsi
 ## Objective
 Build a website using HTML and CSS that is functionally similar to https://codepen.io/freeCodeCamp/full/zNqgVx
 
+## Things I learned
+ - width: 100vw; does not act like I think it should. It tends to add a
+   scroll bar at the bottom the the page and make content flow under the
+   right side scroll bar. Use % units.
+
 ## Goals
  - Use semantic and accesible HTML
  - Make it responsive
