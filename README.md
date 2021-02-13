@@ -36,6 +36,9 @@ Build a website using HTML and CSS that is functionally similar to https://codep
  - width: 100vw; does not act like I think it should. It tends to add a
    scroll bar at the bottom the the page and make content flow under the
    right side scroll bar. Use % units.
+ - Scroll bars and full width/height... so annoying.
+   - Position: fixed and absolute seem to deal with vertical scroll bars
+     differently than relative
 
 ## Goals
  - Use semantic and accesible HTML

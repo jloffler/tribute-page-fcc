@@ -5,7 +5,8 @@ Comments starting with fcc (freeCodeCamp) denote rules
 required for the project to pass the test software.
 -->
 
-<!-- Rough order
+<!--
+Rough order
 
 Splash image fixed in background
 Name
@@ -18,15 +19,13 @@ Content
 Youtube guitar? - Add later, after styling splash, before styling rest
 More: wikipedia, twitter, book website?
 footer picture of earth from space - fixed in background
-
 -->
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="freeCodeCamp Tribute Project Chris Hadfield">
-<meta name="keywords" content="freeCodeCamp, chris, hadfield, canadian, astronaut">
-
+<meta name="keywords" content="chris, hadfield, canadian, astronaut">
 <title>Tribute: Chris Hadfield</title>
 
 <!-- favicon -->
@@ -47,56 +46,55 @@ footer picture of earth from space - fixed in background
 >
 
 <!-- fcc #main "should contain all other elements" -->
-<!-- .page-container contains both content and footer photo -->
-<main id="main" class="page-container">
-  <div class="content-wrap">
-    <header>
-      <h1 class="splash-quote">
-        It was the most magnificent experience of my life. Alone in a one-person
-        spaceship (my suit), just holding on with my one hand, with the bottomless
-        black universe on my left and the World pouring by in technicolour on my
-        right. I highly recommend it.
-      </h1>
-      <h2 id="title">Chris Hadfield</h2> <!-- fcc "must contain a string" -->
-    </header>
-    <div id="img-div"> <!-- fcc -->
-      <!-- 
-      fcc #image must:
-       - Be within #img-div 
-       - Responsively resize relative parent width
-       - Not exceed original size
-       - Be centered within parent
-      -->
-      <img
-        id="image"
-        src="img/portrait.jpg"
-        height="500px"
-        width="auto"
-        alt="Portrait of Chris Hadfield in a space suit">
-      <figcaption id="image-caption">Image caption</figcaption> <!-- fcc "within img-div" -->
-    </div> <!-- #img-div -->
-    <p id="tribute-info"> <!-- fcc "textual content describing subject" -->
-      lorem ipsum gipsum board drywally
-    </p>
-    <div class="external-links">
-      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chris_Hadfield">  <!-- fcc _blank opens new tab -->
-        Wikipedia
-      </a>
-      <a target="_blank">Twitter</a>
-      <a target="_blank">Book Website</a>
-    </div>
+<main id="main">
+  <header>
+    <h1 class="splash-quote">
+      It was the most magnificent experience of my life. Alone in a one-person
+      spaceship (my suit), just holding on with my one hand, with the bottomless
+      black universe on my left and the World pouring by in technicolour on my
+      right. I highly recommend it.
+    </h1>
+    <h2 id="title">Chris Hadfield</h2>
+    <!-- fcc #title "must contain a string" -->
+  </header>
+  <div id="img-div"> <!-- fcc #img-div required -->
+    <!-- 
+    fcc #image must:
+     - Be within #img-div 
+     - Responsively resize relative parent width
+     - Not exceed original size
+     - Be centered within parent
+    -->
+    <img
+      id="image"
+      src="img/portrait.jpg"
+      height="500px"
+      width="auto"
+      alt="Portrait of Chris Hadfield in a space suit">
+    <figcaption id="image-caption">Image caption</figcaption>
+    <!-- fcc #image-caption "within img-div" -->
+  </div> <!-- #img-div -->
+  <p id="tribute-info">
+    <!-- fcc #tribute-info "textual content describing subject" -->
+    lorem ipsum gipsum board drywally
+  </p>
+  <div class="external-links">
+    <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chris_Hadfield">  <!-- fcc _blank opens new tab -->
+      Wikipedia
+    </a>
+    <a target="_blank">Twitter</a>
+    <a target="_blank">Book Website</a>
+  </div>
+  
+<!-- === For Testing === -->
+  <p class="for-testing">Test Text</p>
+<!-- === End Testing === -->
+
+  <footer>
+    <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
     
-  <!-- === For Testing === -->
-    <p class="for-testing">Test Text</p>
-  <!-- === End Testing === -->
-
-
-    <footer>
-      <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
-    </footer>
-  </div> <!-- .content-wrap -->
-</main> <!-- #main .page-container -->
-
+  </footer>
+  <div>
   <img
     id="footer-image"
     src="img/footer.jpg"
@@ -104,5 +102,7 @@ footer picture of earth from space - fixed in background
     width="1920px"
     alt="Silhouette of the Internation Space Station over the Earth"
   >
-<!-- </main> #main .page-container -->
+  <div>
+</main>
+
 </body>
