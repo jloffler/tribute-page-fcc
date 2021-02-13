@@ -40,6 +40,8 @@ Build a website using HTML and CSS that is functionally similar to https://codep
  - Scroll bars and full width/height... so annoying.
    - Position: fixed and absolute seem to deal with vertical scroll bars
      differently than relative
+ - Inline elements, such as images, have space below (that is not
+   padding or margin) for text descenders (lower case "g" goes below other letters).     
 
 ## Goals
  - Use semantic and accesible HTML
