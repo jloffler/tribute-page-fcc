@@ -28,7 +28,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
   background-color: green;
   font-family: arial, sans-serif;
 }
@@ -36,6 +35,7 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 /* *** Links and Type *** */
@@ -58,18 +58,22 @@ body {
   height: 50vh;
 }
 
-footer {
-  /*position: relative;*/
+.footer {
+  position: relative;
+  width: 100%
+  padding: 70vh;
 }
 
 #footer-image {
+  display: block; /* images default to inline, which leaves space for descenders */
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
   height: auto;
   border: 10px solid red;
-/*  position: absolute;
+  position: absolute;
   bottom: 0;
   left: 0;
   z-index: -1;
-*/}
+}
