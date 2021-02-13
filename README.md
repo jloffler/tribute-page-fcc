@@ -23,7 +23,8 @@ Note to self: default branch is *main* not master
  - Remove img folder from .gitignore once images are finalized
 
 # Live site on GitHub Pages
- - URL here when project complete
+ - Incomplete:
+   - https://jloffler.github.io/tribute-page-fcc/
  - project completion date
  
 ## Project: Tribute Page
