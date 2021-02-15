@@ -21,6 +21,7 @@ Note to self: default branch is *main* not master
  - Write css
  - Write better img alt text
  - Remove img folder from .gitignore once images are finalized
+ - Link to full size images (in a new page) and NASA images in footer
 
 # Live site on GitHub Pages
  - Incomplete:

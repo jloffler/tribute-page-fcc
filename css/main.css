@@ -59,20 +59,21 @@ body {
 }
 
 .footer {
-  position: relative;
+  /*position: relative;*/
   width: 100%
-  padding: 70vh;
+  height: 70vh;
 }
 
 #footer-image {
-  display: block; /* images default to inline, which leaves space for descenders */
+  display: block;
+  /* images default to inline, which leaves space for descenders */
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: auto;
+  height: 70vh;
   border: 10px solid red;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   z-index: -1;
