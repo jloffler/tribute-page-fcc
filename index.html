@@ -33,62 +33,112 @@ footer picture of earth from space - fixed in background
 <link rel="stylesheet" href="css/main.css">
 </head>
 
-
 <body>
 
-<img
-  id="splash-image"
-  src="img/splash.jpg"
-  height="1080px"
-  width="1920px"
-  loading="eager"
-  alt="A human many kilometres above the Earth on a spacewalk"
->
+<img id="splash-image" src="img/splash.jpg" height="1080px" width="1920px"
+     loading="eager" alt="A human many kilometres above the Earth on a spacewalk">
 
 <!-- fcc #main "should contain all other elements" -->
-<main id="main">
+<!-- For now I will use .content-container and see if fcc will allow main not to contain everything -->
+<!-- <main id="main" class="content-container"> -->
+<div class="content-container">
   <header>
-    <h1 class="splash-quote">
+    <h1 class="desktop-splash-quote">
+      ...the bottomless black universe on my left and the World pouring by in technicolour on my right.
+    </h1> <!-- .desktop-splash-quote -->
+    <h2 id="title">Chris Hadfield</h2>
+    <!-- fcc #title "must contain a string" -->
+  </header>
+
+  <section class="introduction">  
+    <blockquote class="quote">
       It was the most magnificent experience of my life. Alone in a one-person
       spaceship (my suit), just holding on with my one hand, with the bottomless
       black universe on my left and the World pouring by in technicolour on my
       right. I highly recommend it.
-    </h1>
-    <h2 id="title">Chris Hadfield</h2>
-    <!-- fcc #title "must contain a string" -->
-  </header>
-  <div id="img-div"> <!-- fcc #img-div required -->
-    <!-- 
-    fcc #image must:
-     - Be within #img-div 
-     - Responsively resize relative parent width
-     - Not exceed original size
-     - Be centered within parent
-    -->
-    <img
-      id="image"
-      src="img/portrait.jpg"
-      height="500px"
-      width="auto"
-      alt="Portrait of Chris Hadfield in a space suit">
-    <figcaption id="image-caption">Image caption</figcaption>
-    <!-- fcc #image-caption "within img-div" -->
-  </div> <!-- #img-div -->
-  <p id="tribute-info">
-    <!-- fcc #tribute-info "textual content describing subject" -->
-    lorem ipsum gipsum board drywally
-  </p>
-  <div class="external-links">
-    <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chris_Hadfield">  <!-- fcc _blank opens new tab -->
-      Wikipedia
+    </blockquote>
+    <div id="img-div"> <!-- fcc #img-div required -->
+      <!-- 
+      fcc #image must:
+       - Be within #img-div 
+       - Responsively resize relative parent width
+       - Not exceed original size
+       - Be centered within parent
+      -->
+      <img id="image" src="img/portrait.jpg" height="500px" width="auto"
+        alt="Portrait of Chris Hadfield in a space suit">
+      <figcaption id="image-caption">CSA Astronaut Chris Hadfield</figcaption>
+      <!-- fcc #image-caption "within img-div" -->
+    </div> <!-- #img-div -->
+  </section> <!-- .introduction -->
+
+  <main id="main" class="main-content-wrap">
+    <!-- fcc <p> #tribute-info "textual content describing subject" -->
+    <p id="tribute-info">
+      Chris Hadfield is a famous retired Canadian astronaut. Most notable for using social media while onboard the International Space Station (ISS), leading to increased public interest in outer-space exploration.
+    </p>
+    <p>
+      In 1969, young 9 year old Chris, watched on television as, Niel Armstrong took "one giant leap for mankind", and first stepped on to the surface of the moon. Chris attributes this moment to the solidification of his life goal to go to space. From then on when faced with any decision, whichever "attitude" (the orientation a space-ship is pointing) was facing the stars, is the direction he would choose to go.
+    </p>
+    <p>
+      Even though there were no Canadian astronauts when he was a child, he decided to follow the path most American astronauts take to get to space, in hopes that that might one day change. Thus he learned to fly with the Royal Canadian Air Cadets as a teenager. Studied hard to get an engineering degree. Became a Royal Canadian Air Force (RCAF) fighter, and test pilot. Finally in 1992 Chris was selected to become a Canadian Space Agency (CSA) astronaut.
+    </p>
+    <p>
+      Over his CSA career Chris has completed several prominent missions, including being the first ever Canadian to walk in space. On his first space shuttle mission, he became the only Canadian to board the Russian space station Mir. On STS-100 he helped install the Canadarm2 on the ISS.
+    </p>
+    <p>
+      In 2013 Chris became the onboard commander of the ISS. He became well known for posting: beautiful images of space and the Earth, videos showcasing science and life in micro-gravity, and even songs recorded in space, to social media. His posts spread like wild-fire back on terra-firma, especially his cover of the song "Space Oddity" by David Bowie. He was even the (remote) guest of several TV news, and talk shows while orbiting the Earth at 27600 km/h.
+    </p>
+    <p>
+      Chris Retired from the space-faring life once safely back on the ground after ISS Expedition 35.
+    </p>
+  </main> <!-- .main-content-wrap -->
+  
+  <aside class="bullet-list">
+    <h2>Prominent Stats</h2>
+    <ul>
+      <li><em>First</em> Canadian to space walk</li>
+      <li><em>Only</em> Canadian to ever board Russian Space Station MIR</li>
+      <li><em>First</em> Canadian commander of ISS</li>
+      <li>Born in 1959 in Sarnia, Ontario, Canada</li>
+      <li>Grew up on a corn farm</li>
+      <li>Mechanical Engineering degree</li>
+      <li>Master's degree in Aviation Systems</li>
+      <li>Achieved rank of Colonel in RCAF</li>
+      <li>Spacecraft used:</li>
+      <ul class="unordered-list-child">
+         <li>Space shuttle Atlantis</li>
+         <li>Space station Mir</li>
+         <li>Space shuttle Endeavour</li>
+         <li>Extravehicular Mobility Unit</li>
+         <li>Soyuz TMA-07M</li>
+         <li>International Space Station</li>
+      </ul>
+      <li>35 year career as military pilot and astronaut</li>
+      <li>Two space shuttle missions: STS-74, STS-100</li>
+      <li>Total space walks: 2</li>
+      <li>Total EVA time: 14 hours, 53 minutes</li>
+      <li>Days in space: 166</li>
+      <li>Time aboard ISS: 5 months</li>
+      <li>Guest of news and talk shows while aboard ISS</li>
+      <li>Best selling author of "An Astronaut's Guide to Life on Earth"</li>
+      <li>Helped Installed Canadarm2 on ISS during EVA</li>
+      <li>First original song recorded on the ISS--Jewel of the Night</li>
+      <li>Captain of--NEEMO 14 aboard Aquarius Underwater Laboratory</li>
+      <li>RCAF fighter and test pilot</li>
+      <li>Over 70 types of aircraft flown </li>
+      <li>Retired from CSA in 2013</li>
+    </ul>
+  </aside> <!-- .bullet-list -->
+
+  <nav class="external-links">
+    <!-- fcc _blank opens new tab -->
+    <a id="tribute-link" target="_blank"
+       href="https://en.wikipedia.org/wiki/Chris_Hadfield">Wikipedia
     </a>
     <a target="_blank">Twitter</a>
     <a target="_blank">Book Website</a>
-  </div>
-  
-<!-- === For Testing === -->
-  <p class="for-testing">Test Text</p>
-<!-- === End Testing === -->
+  </nav> <!-- .external-links -->
 
   <div class="footer">
     <p>Thanks to wikipedia etc etc and Colonel Hadfield!</p>
@@ -100,6 +150,7 @@ footer picture of earth from space - fixed in background
       alt="Silhouette of the Internation Space Station over the Earth"
     >
   </div> <!-- .footer -->
-</main>
+</div> <!-- .content-container --> <!-- </main> -->
 
 </body>
+</html>
