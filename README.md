@@ -1,13 +1,17 @@
 Note to self: default branch is *main* not master
 
 # Current task
- - Create html structure
- - add other elements needed not required by fcc
+ - style portrait, figcaption, and quote using flexbox
 
 # ToDo
- - Write html
- - Add an aside with big accomplishments or just use bullet point style for whole article?
- -Is it better to set the #splash-image as body background?
+ - Layout portrait, figcaption, and quote
+ - Layout write-up and bullet list
+ - Layout links
+ - Layout footer
+ - Add responsive design for mobile
+ - Responsively design portrait image
+ - Responsively design splash image
+ - Responsively design footer image
  - Non-programming  
     - Find ISS photo to use as splash
     - Find Earth from space to use as footer
@@ -18,20 +22,22 @@ Note to self: default branch is *main* not master
     - Find Wikipedia page link
     - Find Twitter page link
     - Find book website link
- - Write css
+    - Edit photo sizes
  - Write better img alt text
  - Remove img folder from .gitignore once images are finalized
- - Link to full size images (in a new page) and NASA images in footer
+ - Add links to full size images (in a new page) and NASA images in footer
 
-# Live site on GitHub Pages
+# Astronaut Chris Hadfield Tribute Webpage
+
+## Live site on GitHub Pages
  - Incomplete:
    - https://jloffler.github.io/tribute-page-fcc/
  - project completion date
  
-## Project: Tribute Page
+### Project: Tribute Page
 freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
 
-## Objective
+### Objective
 Build a website using HTML and CSS that is functionally similar to https://codepen.io/freeCodeCamp/full/zNqgVx
 
 ## Things I learned
@@ -47,9 +53,11 @@ Build a website using HTML and CSS that is functionally similar to https://codep
 ## Goals
  - Use semantic and accesible HTML
  - Make it responsive
- - Use an organized code structure
+ - Make a splash image that takes up the whole viewport
+ - Embed a youtube video
+ - Make it actually look good and compelling to read
 
-## Bibliography
+### Bibliography
 images.nasa.gov
 wikipedia / chris hadfield
  
