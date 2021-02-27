@@ -42,7 +42,7 @@ body {
 
 /* *** Main Layout *** */
 
-/* *** Secondary Layout Structures *** */
+/* #SPLASH-IMAGE */
 #splash-image {
   position: fixed;
   top: 0;
@@ -54,8 +54,38 @@ body {
   border: 10px solid yellow;
 }
 
-.for-testing {
-  height: 50vh;
+/* .HEADER (DESKTOP) */
+header {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  text-align: center;
+  position: relative;
+}
+
+.header-wrap {
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 0 15vw 0 15vw;
+  padding: 0.5em;
+  border-radius: 1.2em;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.desktop-splash-quote {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 0.7em 0;
+}
+
+#title {
+  font-size: 2.5rem;
+  margin: 0 0 0.4em 0;
+}
+
+/* .CONTENT-CONTAINER */
+.content-container {
+  background-color: grey;
 }
 
 .footer {
@@ -63,7 +93,6 @@ body {
   width: 100%
   height: 70vh;
 }
-
 #footer-image {
   display: block;
   /* images default to inline, which leaves space for descenders */

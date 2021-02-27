@@ -27,8 +27,8 @@ footer picture of earth from space - fixed in background
   <head>
   <body>
     #splash-image
+    <header>
     .content-container
-      <header>
         .desktop-splash-quote
         #title
       <.introduction>
@@ -60,18 +60,21 @@ footer picture of earth from space - fixed in background
 <img id="splash-image" src="img/splash.jpg" height="1080px" width="1920px"
      loading="eager" alt="A human many kilometres above the Earth on a spacewalk">
 
+<header>
+  <div class="header-wrap">
+    <p class="desktop-splash-quote">
+      ...the bottomless black universe on my left and the World pouring by in technicolour on my right.
+    </p> <!-- .desktop-splash-quote -->
+    <h1 id="title">Chris Hadfield</h1>
+    <!-- fcc #title "must contain a string" -->
+    <p class="scroll-down">scroll down</p>
+  </div> <!-- .header-wrap -->  
+</header>
+
 <!-- fcc #main "should contain all other elements" -->
 <!-- For now I will use .content-container and see if fcc will allow main not to contain everything -->
 <!-- <main id="main" class="content-container"> -->
 <div class="content-container">
-  <header>
-    <h1 class="desktop-splash-quote">
-      ...the bottomless black universe on my left and the World pouring by in technicolour on my right.
-    </h1> <!-- .desktop-splash-quote -->
-    <h2 id="title">Chris Hadfield</h2>
-    <!-- fcc #title "must contain a string" -->
-  </header>
-
   <section class="introduction">  
     <blockquote class="quote">
       It was the most magnificent experience of my life. Alone in a one-person
