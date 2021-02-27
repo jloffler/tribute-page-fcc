@@ -37,8 +37,14 @@ Note to self: default branch is *main* not master
 ### Project: Tribute Page
 freeCodeCamp - https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page
 
-### Objective
 Build a website using HTML and CSS that is functionally similar to https://codepen.io/freeCodeCamp/full/zNqgVx
+
+## Goals
+ - Use semantic and accesible HTML
+ - Make it responsive
+ - Make a splash image that takes up the whole viewport
+ - Embed a youtube video
+ - Make it actually look good and compelling to read
 
 ## Things I learned
  - width: 100vw; does not act like I think it should. It tends to add a
@@ -48,18 +54,11 @@ Build a website using HTML and CSS that is functionally similar to https://codep
    - Position: fixed and absolute seem to deal with vertical scroll bars
      differently than relative
  - Inline elements, such as images, have space below (that is not
-   padding or margin) for text descenders (lower case "g" goes below other letters).     
-
-## Goals
- - Use semantic and accesible HTML
- - Make it responsive
- - Make a splash image that takes up the whole viewport
- - Embed a youtube video
- - Make it actually look good and compelling to read
+   padding or margin) for text descenders (lower case "g" goes below other letters).
 
 ### Bibliography
-images.nasa.gov
-wikipedia / chris hadfield
+ - images.nasa.gov
+ - wikipedia - chris hadfield
  
-### Unfinished
+### Tasks Left Unfinished Due to Time Constraints
  
