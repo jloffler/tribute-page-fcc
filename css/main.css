@@ -25,8 +25,6 @@ Table of Conents
 
 /* *** Resets and Overrides *** */
 body {
-  margin: 0;
-  padding: 0;
   width: 100%;
   background-color: green;
   font-family: arial, sans-serif;
@@ -83,9 +81,48 @@ header {
   margin: 0 0 0.4em 0;
 }
 
+
 /* .CONTENT-CONTAINER */
 .content-container {
   background-color: grey;
+}
+
+/* .INTRODUCTION-WRAP */
+.introduction-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.quote {
+  display: block;
+  width: 25vw;
+  border: 2px solid black;
+}
+
+#img-div {
+  display: block;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#image {
+  /*
+  image size:
+  should be set by height?
+  but it should have a max and min height.
+  MOBILE:
+  should be set by width--not quite full width--quote should also be set by;
+  
+  Is there some setup that won't use media queires? by width? always have some 
+  margin or padding (for mobile edges).
+
+  With flexbox, can you make something LIKE a certain size, but accept a different size
+    I guess it should only go side by side when maxed? or have a minimum width?
+       and with MINIMUM WIDTH -- that's when it goes single
+  */
+  width: auto;
 }
 
 .footer {
