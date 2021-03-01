@@ -1,11 +1,13 @@
 Note to self: default branch is *main* not master
 
 # Current task
- - style portrait, figcaption, and quote using flexbox
+ - use @media to remove splash partial quote for narrow screens
 
 # ToDo
- - Layout portrait, figcaption, and quote
- - Layout write-up and bullet list
+ - style quote
+ - style portrait, figcaption
+ - style write-up
+ - style bullet-list
  - Layout links
  - Layout footer
  - Add responsive design for mobile
