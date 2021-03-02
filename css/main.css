@@ -27,7 +27,7 @@ Table of Conents
 body {
   width: 100%;
   background-color: green;
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 * {
@@ -100,8 +100,14 @@ header {
 
 .quote {
   display: block;
-  max-width: 25em;
+  max-width: 20em;
+  margin: 0 30px 0 30px;
+  font-family: "Times New Roman", "Times", serif;
   border: 2px solid black;
+  font-size: 1.3em;
+  line-height: 1.9em;
+  letter-spacing: 0.075em;
+  font-weight: 600;
 }
 
 #img-div {
@@ -141,12 +147,28 @@ header {
 }
 
 .write-up {
-  /* indent paragraph */
   max-width: 700px;
+}
+
+.write-up p {
+  text-indent: 1.5em;
+  line-height: 1.3em;
+  margin: 0 0 1em 0;
 }
 
 .bullet-list {
   max-width: 300px;
+  margin: 0 2em 0 2em;
+}
+
+.bullet-list ul {
+  list-style-position: inside;
+  line-height: 1.5em;
+}
+
+/* Indent nested lists */
+ul > ul {
+  margin-left: 1em;
 }
 
 .footer {
