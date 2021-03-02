@@ -1,13 +1,17 @@
 Note to self: default branch is *main* not master
 
 # Current task
- - use @media to remove splash partial quote for narrow screens
 
 # ToDo
  - style quote
  - style portrait, figcaption
+ - use @media to size portrait to % of screen width
  - style write-up
  - style bullet-list
+ - Style title "chris hadfield"
+ - use @media to move title below splash image in mobile
+ - use @media to remove splash partial quote for narrow screens
+   - may need to finish layout for splash image first
  - Layout links
  - Layout footer
  - Add responsive design for mobile
