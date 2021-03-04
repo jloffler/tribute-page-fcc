@@ -56,6 +56,7 @@ body {
 header {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255,1));
   color: black;
   text-align: center;
   position: relative;
@@ -139,10 +140,10 @@ header {
 /* #MAIN */
 #main {
   max-width: 90vw;
-  margin: 0 auto 0 auto;
+  margin: 2em auto 0 auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
