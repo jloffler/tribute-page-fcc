@@ -1,9 +1,25 @@
-Note to self: default branch is *main* not master
-
 # Current task
  - 
 
 # ToDo
+ 1- Typography - import ubuntu font
+   - p typography
+   - list typography
+   - strong, h2 typography
+   - .quote typography
+   - .desktop-splash-quote typography
+   - link typgraphy
+ 2- Fix mobile first layout - specifically portrait image
+ 3- Style and layout footer
+   - footer 1st (white to black fade), then image (crop black part off) under.
+ 4- Desktop layout, mid size layout
+ 5- Footer image cropping at 3 screen sizes
+ 6- spalsh image cropping at 3 screen sizes 
+
+
+
+
+
  - style quote
  - style portrait, figcaption
  - use @media to size portrait to % of screen width
@@ -33,7 +49,8 @@ Note to self: default branch is *main* not master
  - Write better img alt text
  - Remove img folder from .gitignore once images are finalized
  - Add links to full size images (in a new page) and NASA images in footer
-
+ - add rel="noopener" to links that open in new tabs
+ 
 # Astronaut Chris Hadfield Tribute Webpage
 
 ## Live site on GitHub Pages
