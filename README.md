@@ -2,6 +2,10 @@
  - 
 
 # ToDo
+ 2- Fix mobile first layout - specifically portrait image
+ 3- Style and layout footer
+   - footer 1st (white to black fade), then image (crop black part off) under.
+ 4- Desktop layout, mid size layout
  1- Typography - import ubuntu font
    - p typography
    - list typography
@@ -9,12 +13,11 @@
    - .quote typography
    - .desktop-splash-quote typography
    - link typgraphy
- 2- Fix mobile first layout - specifically portrait image
- 3- Style and layout footer
-   - footer 1st (white to black fade), then image (crop black part off) under.
- 4- Desktop layout, mid size layout
  5- Footer image cropping at 3 screen sizes
  6- spalsh image cropping at 3 screen sizes 
+ 7- make "scroll down" a link (in header)
+ 8- Link images to full screen versions
+ 9- Check all links
 
 
 
@@ -31,6 +34,7 @@
    - may need to finish layout for splash image first
  - Layout links
  - Layout footer
+ - Change portrait to canada
  - Add responsive design for mobile
  - Responsively design portrait image
  - Responsively design splash image
