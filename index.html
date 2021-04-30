@@ -71,33 +71,33 @@ footer picture of earth from space - fixed in background
   </div> <!-- .header-wrap -->  
 </header>
 
-<!-- fcc #main "should contain all other elements" -->
 <!-- For now I will use .content-container and see if fcc will allow main not to contain everything -->
 <!-- <main id="main" class="content-container"> -->
-<div class="content-container">
-  <section class="introduction-wrap">  
-    <blockquote class="quote">
-      "It was the most magnificent experience of my life. Alone in a one-person
-      spaceship (my suit), just holding on with my one hand, with the bottomless
-      black universe on my left and the World pouring by in technicolour on my
-      right. I highly recommend it."
-    </blockquote>
-    <div id="img-div"> <!-- fcc #img-div required -->
-      <!-- 
-      fcc #image must:
-       - Be within #img-div 
-       - Responsively resize relative parent width
-       - Not exceed original size
-       - Be centered within parent
-      -->
-      <img id="image" src="img/portrait.jpg" height="500px" width="auto"
-        alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag.">
-      <figcaption id="image-caption">CSA Astronaut Chris Hadfield</figcaption>
-      <!-- fcc #image-caption "within img-div" -->
-    </div> <!-- #img-div -->
-  </section> <!-- .introduction-wrap -->
-
+<!-- fcc #main "should contain all other elements" -->
   <main id="main">
+<!-- <div class="content-container"> -->
+    <section class="introduction-wrap">  
+      <blockquote class="quote">
+        "It was the most magnificent experience of my life. Alone in a one-person
+        spaceship (my suit), just holding on with my one hand, with the bottomless
+        black universe on my left and the World pouring by in technicolour on my
+        right. I highly recommend it."
+      </blockquote>
+      <div id="img-div"> <!-- fcc #img-div required -->
+        <!-- 
+        fcc #image must:
+         - Be within #img-div 
+         - Responsively resize relative parent width
+         - Not exceed original size
+         - Be centered within parent
+        -->
+        <img id="image" src="img/portrait.jpg" height="500px" width="auto"
+          alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag.">
+        <figcaption id="image-caption">CSA Astronaut Chris Hadfield</figcaption>
+        <!-- fcc #image-caption "within img-div" -->
+      </div> <!-- #img-div -->
+    </section> <!-- .introduction-wrap -->
+
     <section class="write-up">
       <h2>About Chris</h2>
       <!-- fcc <p> #tribute-info "textual content describing subject" -->
@@ -157,20 +157,29 @@ footer picture of earth from space - fixed in background
         <li>Retired from CSA in 2013</li>
       </ul>
     </aside> <!-- .bullet-list -->
-  </main> <!-- #main -->
 
-  
-    <nav class="external-links">
-      <!-- fcc _blank opens new tab -->
+    <section class="find-out-more">  
       <h2>Find out more about Chris at:</h2>
-      
-      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Chris_Hadfield">
-        <img src="img/w.svg" alt="Wikipedia W Logo" height="80px" width="auto">
-        Wikipedia</a>
-      <a target="_blank" href="https://chrishadfield.ca/">
-        <img src="img/space-station.svg" alt="Space Station Icon" height="80px" width="auto">
-        ChrisHadfield.ca</a>
-    </nav> <!-- .external-links -->
+      <nav class="external-links">
+        <!-- fcc _blank opens new tab -->
+        <a id="tribute-link"
+           class="off-page-nav-link"
+           target="_blank"
+           rel="noreferrer"
+           href="https://en.wikipedia.org/wiki/Chris_Hadfield">
+          <img src="img/w.svg" alt="Wikipedia W Logo" height="80px" width="auto">
+          <p>Wikipedia</p>
+        </a>
+        <a class="off-page-nav-link"
+           target="_blank"
+           rel="noreferrer"
+           href="https://chrishadfield.ca/">
+          <img src="img/space-station.svg" alt="Space Station Icon" height="80px" width="auto">
+          <p>ChrisHadfield.ca</p>
+        </a>
+      </nav> <!-- .external-links -->
+    </section> <!-- .find-out-more -->
+  </main> <!-- #main -->
 
   <div class="footer">
     <p>(Sources) Thanks to <a href="#">wikipedia</a> etc etc and <a href="#">Colonel Hadfield</a>!</p>
@@ -185,7 +194,10 @@ footer picture of earth from space - fixed in background
     width="1920px"
     alt="Silhouette of the Internation Space Station over the Earth"
   >
-</div> <!-- .content-container --> <!-- </main> -->
+  <!--
+  </div>
+  -->
+  <!-- .content-container --> <!-- </main> -->
 
 </body>
 </html>
