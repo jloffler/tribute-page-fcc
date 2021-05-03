@@ -85,7 +85,7 @@ Build a website using HTML and CSS that is functionally similar to https://codep
    padding or margin) for text descenders (lower case "g" goes below other letters).
 
 ### Bibliography
- - images.nasa.gov
+ - images.nasa.gov - NASA image and video library
  - wikipedia - chris hadfield
  - chrishadfield.ca
  - Icons
