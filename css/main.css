@@ -136,13 +136,12 @@ header {
 
 /* .CONTENT-CONTAINER */
 #main {
-  width: 95%;
-  margin: 0 auto 0 auto;
 }
 
 .content-container {
+  width: 95%;
+  margin: 0 auto 0 auto;
   background-color: #fff;
-  width: 100%;
 }
 
 /* .INTRODUCTION-WRAP */
@@ -260,6 +259,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; /* main axis */
+  margin-bottom: 2em;
 }
 
 .off-page-nav-link {
@@ -276,14 +276,54 @@ li {
 
 /* FOOTER */
 .footer {
-  background: grey;
-  /*background: #000;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #000;
+  color: #fff;
   /* White to black */
   /*
   background-image: linear-gradient(to bottom, 
                                     rgba(255, 255, 255),
                                     rgba(0, 0, 0) 40%);
   */
+}
+
+.footer::before {
+  content: "";
+  background: #000;
+  /* 
+  - purpose: fill left/right sides from white to black;
+  - make wide enough to fill screen.
+  - overflow to make to scroll bars
+  */
+}
+
+.footer-nav {
+  display: inline;
+}
+
+.footer-h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-p {
+
+}
+
+.footer-link,
+.footer-link:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-link:hover,
+.footer-link:active,
+.footer-link:focus {
+  text-decoration: underline;
 }
 
 /* 
