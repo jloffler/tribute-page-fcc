@@ -275,11 +275,11 @@ li {
 }
 
 /* FOOTER */
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #000;
+  background: grey;
   color: #fff;
   /* White to black */
   /*
@@ -289,14 +289,32 @@ li {
   */
 }
 
-.footer::before {
+footer::before {
   content: "";
-  background: #000;
+  background: grey;
+  position: absolute;
+  z-index: -10;
+  left: -5rem;
+  width: 5rem;
+  height: 100%;
+  overflow: visible;
   /* 
   - purpose: fill left/right sides from white to black;
   - make wide enough to fill screen.
   - overflow to make to scroll bars
   */
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:visited {
+  color: #551a8b; /* link default purple */
 }
 
 .footer-nav {
@@ -307,10 +325,6 @@ li {
   font-size: 1rem;
   font-weight: 700;
   margin: 0;
-}
-
-.footer-p {
-
 }
 
 .footer-link,
@@ -324,6 +338,10 @@ li {
 .footer-link:active,
 .footer-link:focus {
   text-decoration: underline;
+}
+
+.footer-p {
+  color: #fff;
 }
 
 /* 
