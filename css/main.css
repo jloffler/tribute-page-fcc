@@ -276,10 +276,13 @@ li {
 
 /* FOOTER */
 footer {
+  /*
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: grey;
+  */
+  padding: 2em 2.5% 0 2.5%;
+  background: #000;
   color: #fff;
   /* White to black */
   /*
@@ -289,24 +292,9 @@ footer {
   */
 }
 
-footer::before {
-  content: "";
-  background: grey;
-  position: absolute;
-  z-index: -10;
-  left: -5rem;
-  width: 5rem;
-  height: 100%;
-  overflow: visible;
-  /* 
-  - purpose: fill left/right sides from white to black;
-  - make wide enough to fill screen.
-  - overflow to make to scroll bars
-  */
-}
-
 footer ul {
   list-style-type: none;
+  margin-bottom: 2em;
 }
 
 footer a {
@@ -314,7 +302,7 @@ footer a {
 }
 
 footer a:visited {
-  color: #551a8b; /* link default purple */
+  color: #B47EE7;
 }
 
 .footer-nav {
