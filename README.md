@@ -3,14 +3,17 @@
 - Crop Footer ISS Image (Mobile and desktop)
 - Otherwise mobile looks good.
 - Crop Splash Hero image to 3 sceen sizes. Use that css? object-fit?
+- add html code to load different images
 - Desktop Size fix partial quote styling
 - Make "scrool down" a scroll down link
 - link images to full size versions
 - check all links work
 - check image alt text
 - add favicon
+- cleanup image folder
  - Remove img folder from .gitignore once images are finalized
  - clean up code
+ - add separate page for each full screen image-add link in footer and from each photo
  
 # Astronaut Chris Hadfield Tribute Webpage
 
