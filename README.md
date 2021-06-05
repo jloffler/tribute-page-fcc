@@ -1,59 +1,16 @@
 # Current task
  - 
-
-# ToDo
- 2- Fix mobile first layout - specifically portrait image
- 3- Style and layout footer
-   - footer 1st (white to black fade), then image (crop black part off) under.
- 4- Desktop layout, mid size layout
- 1- Typography - import ubuntu font
-   - p typography
-   - list typography
-   - strong, h2 typography
-   - .quote typography
-   - .desktop-splash-quote typography
-   - link typgraphy
- 5- Footer image cropping at 3 screen sizes
- 6- spalsh image cropping at 3 screen sizes 
- 7- make "scroll down" a link (in header)
- 8- Link images to full screen versions
- 9- Check all links
-
-
-
-
-
- - style quote
- - style portrait, figcaption
- - use @media to size portrait to % of screen width
- - style write-up
- - style bullet-list
- - Style title "chris hadfield"
- - use @media to move title below splash image in mobile
- - use @media to remove splash partial quote for narrow screens
-   - may need to finish layout for splash image first
- - Layout links
- - Layout footer
- - Change portrait to canada
- - Add responsive design for mobile
- - Responsively design portrait image
- - Responsively design splash image
- - Responsively design footer image
- - Non-programming  
-    - Find ISS photo to use as splash
-    - Find Earth from space to use as footer
-    - Find Portrait of Chris
-    - Writup about Chris
-    - Find youtube video of guitar to embed
-    - Find favicon of iss or russian thingy
-    - Find Wikipedia page link
-    - Find Twitter page link
-    - Find book website link
-    - Edit photo sizes
- - Write better img alt text
+- Crop Footer ISS Image (Mobile and desktop)
+- Otherwise mobile looks good.
+- Crop Splash Hero image to 3 sceen sizes. Use that css? object-fit?
+- Desktop Size fix partial quote styling
+- Make "scrool down" a scroll down link
+- link images to full size versions
+- check all links work
+- check image alt text
+- add favicon
  - Remove img folder from .gitignore once images are finalized
- - Add links to full size images (in a new page) and NASA images in footer
- - add rel="noopener" to links that open in new tabs
+ - clean up code
  
 # Astronaut Chris Hadfield Tribute Webpage
 
@@ -102,6 +59,3 @@ Build a website using HTML and CSS that is functionally similar to https://codep
        - https://www.flaticon.com/free-icon/space-station_124542?related_id=124542&origin=search       
      - book
        - https://www.flaticon.com/free-icon/study_2972085
-
-### Tasks Left Unfinished Due to Time Constraints
- 
