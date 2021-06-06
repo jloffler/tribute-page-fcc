@@ -1,9 +1,7 @@
 # Current task
- - 
-- Crop Footer ISS Image (Mobile and desktop)
-- Otherwise mobile looks good.
+- crop mobile hero image
 - Crop Splash Hero image to 3 sceen sizes. Use that css? object-fit?
-- add html code to load different images
+- add html code to load different images (object-fit?)
 - Desktop Size fix partial quote styling
 - Make "scrool down" a scroll down link
 - link images to full size versions
@@ -60,5 +58,3 @@ Build a website using HTML and CSS that is functionally similar to https://codep
        - https://www.flaticon.com/free-icon/wikipedia-logo_49532?term=wikipedia&page=1&position=23&page=1&position=23&related_id=49532&origin=search
      - Space station
        - https://www.flaticon.com/free-icon/space-station_124542?related_id=124542&origin=search       
-     - book
-       - https://www.flaticon.com/free-icon/study_2972085

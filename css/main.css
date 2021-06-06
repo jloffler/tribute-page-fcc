@@ -81,12 +81,15 @@ h2 {
 @media screen and (min-width: 700px) {
   #splash-image {
     position: fixed;
+    z-index: -1;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
     /*border: 10px solid yellow;*/
   }
 }
