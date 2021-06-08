@@ -1,7 +1,5 @@
 # Current task
-- crop mobile hero image
-- Crop Splash Hero image to 3 sceen sizes. Use that css? object-fit?
-- add html code to load different images (object-fit?)
+- add html code to load different images per screen size
 - Desktop Size fix partial quote styling
 - Make "scrool down" a scroll down link
 - link images to full size versions
