@@ -91,8 +91,19 @@ footer picture of earth from space - fixed in background
          - Not exceed original size
          - Be centered within parent
         -->
-        <img id="image" src="img/portrait/portrait-desktop.jpg" height="500px" width="auto"
-          alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag.">
+        <img 
+          id="image"
+          alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag."
+          srcset="
+            img/portrait/portrait-mobile.jpg  700w,
+            img/portrait/portrait-desktop.jpg 400
+          "
+          sizes="
+            (max-width: 699px) 81vw,
+            (min-width: 700px) 400px
+          "
+        >
+          <!-- src="img/portrait/portrait-desktop.jpg" height="500px" width="auto" -->
         <figcaption id="image-caption">CSA Astronaut Chris Hadfield</figcaption>
         <!-- fcc #image-caption "within img-div" -->
       </div> <!-- #img-div -->
