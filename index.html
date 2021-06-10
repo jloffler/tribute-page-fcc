@@ -57,8 +57,49 @@ footer picture of earth from space - fixed in background
 
 <body>
 
+<!--
 <img id="splash-image" src="img/splash.jpg" height="1080px" width="1920px"
      loading="eager" alt="A human many kilometres above the Earth on a spacewalk">
+-->
+
+<picture id="splash-image">
+  <!-- Desktop Screens -->
+  <source
+    srcset="img/hero/hero-max.jpg"
+    media="(min-width: 2561px)"
+  >
+  <source
+    srcset="img/hero/hero-2560.jpg"
+    media="(min-width: 1921px)"
+  > 
+  <source
+    srcset="img/hero/hero-1920.jpg"
+    media="(min-width: 1281px)"
+  >
+  <source
+    srcset="img/hero/hero-1280.jpg"
+    media="(min-width: 855px)"
+  >
+  <source
+    srcset="img/hero/hero-854.jpg"
+    media="(min-width: 700px)"
+  >
+  <!-- Small Landscape Screens -->
+  <source
+    srcset="img/hero/hero-mobile-landscape.jpg"
+    media="(min-width: 501px)"
+  >
+  <!-- Small Portrait Screens -->
+  <source
+    srcset="img/hero/hero-mobile-portrait.jpg"
+    media="(max-width: 500px)"
+  >
+  <!-- Fallback image -->
+  <img
+    src="img/hero/hero-2560.jpg"
+    alt=""
+  >
+</picture>
 
 <header>
   <div class="header-wrap">
@@ -224,6 +265,7 @@ footer picture of earth from space - fixed in background
   </nav>
 </footer>
 
+
 <img
   id="footer-image"
   src="img/footer/footer-desktop.jpg"
@@ -231,6 +273,23 @@ footer picture of earth from space - fixed in background
   width="1920px"
   alt="Silhouette of the Internation Space Station over the Earth"
 >
+
+
+<!-- THIS IS NOT NESTED PROPERLY
+<picture>
+  <source
+    srcset="
+      img/footer/footer-4k.jpg,
+      img/footer/footer-desktop.jpg
+    "
+    sizes="
+      (min-width: 2561px) 100vw,
+      (min-width: 700px) 100vw
+    "
+  >
+-->
+
+
 
 </body>
 </html>
