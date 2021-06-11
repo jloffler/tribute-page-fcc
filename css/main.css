@@ -86,11 +86,18 @@ h2 {
     left: 0;
     width: 100%;
     height: 100vh;
-    object-fit: cover;
-    object-position: 50% 50%;
+    /*object-fit: cover;*/
+    /*object-position: 50% 50%;*/
     margin: 0;
     padding: 0;
     /*border: 10px solid yellow;*/
+  }
+
+  #splash-image img {
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+    object-position:  50% 50%;
   }
 }
 
