@@ -64,27 +64,19 @@ footer picture of earth from space - fixed in background
 
 <picture id="splash-image">
   <!-- Desktop Screens -->
+  <!-- The browswer will pick the ideal size for the viewport -->
   <source
-    srcset="img/hero/hero-max.jpg"
-    media="(min-width: 2561px)"
-  >
-  <source
-    srcset="img/hero/hero-2560.jpg"
-    media="(min-width: 1921px)"
-  > 
-  <source
-    id="test-source"
-    srcset="img/hero/hero-1920.jpg"
-    media="(min-width: 1281px)"
-  >
-  <source
-    srcset="img/hero/hero-1280.jpg"
-    media="(min-width: 855px)"
-  >
-  <source
-    srcset="img/hero/hero-854.jpg"
+    srcset="
+      img/hero/hero-max.jpg 3984w,
+      img/hero/hero-2560.jpg 2560w,
+      img/hero/hero-1920.jpg 1920w,
+      img/hero/hero-1280.jpg 1280w,
+      img/hero/hero-854.jpg 854w
+    "
+    sizes="100vw"
     media="(min-width: 700px)"
   >
+  <!-- This is art direction (different photos for different viewport sizes) -->
   <!-- Small Landscape Screens -->
   <source
     srcset="img/hero/hero-mobile-landscape.jpg"
