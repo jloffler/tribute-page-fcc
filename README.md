@@ -31,6 +31,12 @@ Build a website using HTML and CSS that is functionally similar to https://codep
  - Make it actually look good and compelling to read
 
 ## Things I learned
+ - Responsive images:
+   - Different file-size of same image to save on bandwidth.
+   - Art Direction: Different images (even just cropping) for different sized screens.
+ - Object-fit and object position to let css crop images.
+ - Limiting the width of paragraphs to create ease of readability
+ - Leaving image alt text empty (alt="") if an image is just for art
  - width: 100vw; does not act like I think it should. It tends to add a
    scroll bar at the bottom the the page and make content flow under the
    right side scroll bar. Use % units.

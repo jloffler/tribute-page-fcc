@@ -359,14 +359,19 @@ footer a:visited {
 #footer-image {
   display: block;
   /* images default to inline, which leaves space for descenders */
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   margin: 0;
   padding: 0;
   width: 100%;
-  height: auto;
+  /*height: auto;*/
   /*border: 10px solid red;*/
   /*position: absolute;*/
-  bottom: 0;
-  left: 0;
-  z-index: -1;
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*z-index: -1;*/
+}
+
+#footer-image img {
+  width: 100%;
+  height:  auto;
 }

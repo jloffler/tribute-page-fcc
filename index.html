@@ -67,11 +67,11 @@ footer picture of earth from space - fixed in background
   <!-- The browswer will pick the ideal size for the viewport -->
   <source
     srcset="
-      img/hero/hero-max.jpg 3984w,
+      img/hero/hero-max.jpg  3984w,
       img/hero/hero-2560.jpg 2560w,
       img/hero/hero-1920.jpg 1920w,
       img/hero/hero-1280.jpg 1280w,
-      img/hero/hero-854.jpg 854w
+      img/hero/hero-854.jpg   854w
     "
     sizes="100vw"
     media="(min-width: 700px)"
@@ -258,31 +258,27 @@ footer picture of earth from space - fixed in background
   </nav>
 </footer>
 
-
-<img
-  id="footer-image"
-  src="img/footer/footer-desktop.jpg"
-  height="1080px"
-  width="1920px"
-  alt="Silhouette of the Internation Space Station over the Earth"
->
-
-
-<!-- THIS IS NOT NESTED PROPERLY
-<picture>
+<picture id="footer-image">
+  <!-- Desktop sizes -->
   <source
     srcset="
-      img/footer/footer-4k.jpg,
-      img/footer/footer-desktop.jpg
+      img/footer/footer-4k.jpg      4096w,
+      img/footer/footer-desktop.jpg 2560w
     "
-    sizes="
-      (min-width: 2561px) 100vw,
-      (min-width: 700px) 100vw
-    "
+    sizes="100vw"
+    media="(min-width: 700px)"
   >
--->
-
-
+  <!-- Mobile size -->
+  <source
+    srcset="img/footer/footer-mobile.jpg"
+    media="(max-width: 699px)"
+  >
+  <!-- Fallback -->
+  <img
+    src="img/footer/footer-desktop.jpg"
+    alt=""
+  >
+</picture>
 
 </body>
 </html>
