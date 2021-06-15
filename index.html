@@ -1,47 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-CA">
-<!-- 
-Comments starting with fcc (freeCodeCamp) denote rules
-required for the project to pass the test software.
--->
-
-<!--
-Rough order
-
-Splash image fixed in background
-Name
-
-Vertical radio menu on left or right that jumps to sections
-Portrait Image
-Caption
-Bullet highlights
-Content
-Youtube guitar? - Add later, after styling splash, before styling rest
-More: wikipedia, twitter, book website?
-footer picture of earth from space - fixed in background
--->
-
-<!-- 
-  TABLE OF CONTENTS
-
-  <head>
-  <body>
-    #splash-image
-    <header>
-    .content-container
-        .desktop-splash-quote
-        #title
-      <.introduction>
-        .quote
-        #img-div
-          #image
-          #image-caption
-      #main
-        .write-up
-        .bullet-list
-  .external-links
-  .footer
--->
 
 <head>
 <meta charset="UTF-8">
@@ -49,7 +7,6 @@ footer picture of earth from space - fixed in background
 <meta name="description" content="freeCodeCamp Tribute Project Chris Hadfield">
 <meta name="keywords" content="chris, hadfield, canadian, astronaut">
 <title>Tribute: Chris Hadfield</title>
-<!-- favicon -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="css/main.css">
@@ -57,13 +14,8 @@ footer picture of earth from space - fixed in background
 
 <body>
 
-<!--
-<img id="splash-image" src="img/splash.jpg" height="1080px" width="1920px"
-     loading="eager" alt="A human many kilometres above the Earth on a spacewalk">
--->
-
 <picture id="splash-image">
-  <!-- Desktop Screens -->
+  <!-- Desktop Size Screens -->
   <!-- The browswer will pick the ideal size for the viewport -->
   <source
     srcset="
@@ -76,7 +28,6 @@ footer picture of earth from space - fixed in background
     sizes="100vw"
     media="(min-width: 700px)"
   >
-  <!-- This is art direction (different photos for different viewport sizes) -->
   <!-- Small Landscape Screens -->
   <source
     srcset="img/hero/hero-mobile-landscape.jpg"
@@ -98,16 +49,12 @@ footer picture of earth from space - fixed in background
   <div class="header-wrap">
     <p class="desktop-splash-quote">
       ...the bottomless black universe on my left and the world pouring by in technicolour on my right.
-    </p> <!-- .desktop-splash-quote -->
+    </p>
     <h1 id="title">Chris Hadfield</h1>
-    <!-- fcc #title "must contain a string" -->
     <p class="scroll-down">scroll down</p>
   </div> <!-- .header-wrap -->  
 </header>
 
-<!-- For now I will use .content-container and see if fcc will allow main not to contain everything -->
-<!-- <main id="main" class="content-container"> -->
-<!-- fcc #main "should contain all other elements" -->
 <div class="content-container">
   <main id="main">
     <section class="introduction-wrap">  
@@ -119,7 +66,7 @@ footer picture of earth from space - fixed in background
       </blockquote>
       <div id="img-div"> <!-- fcc #img-div required -->
         <!-- 
-        fcc #image must:
+        freeCodeCamp: #image must:
          - Be within #img-div 
          - Responsively resize relative parent width
          - Not exceed original size
@@ -127,7 +74,6 @@ footer picture of earth from space - fixed in background
         -->
         <img 
           id="image"
-          alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag."
           srcset="
             img/portrait/portrait-mobile.jpg  700w,
             img/portrait/portrait-desktop.jpg 400
@@ -136,16 +82,14 @@ footer picture of earth from space - fixed in background
             (max-width: 699px) 81vw,
             (min-width: 700px) 400px
           "
+          alt="Portrait of Chris Hadfield in a space suit in front of the Canadian flag."
         >
-          <!-- src="img/portrait/portrait-desktop.jpg" height="500px" width="auto" -->
         <figcaption id="image-caption">CSA Astronaut Chris Hadfield</figcaption>
-        <!-- fcc #image-caption "within img-div" -->
       </div> <!-- #img-div -->
     </section> <!-- .introduction-wrap -->
 
     <section class="write-up">
       <h2>About Chris</h2>
-      <!-- fcc <p> #tribute-info "textual content describing subject" -->
       <p id="tribute-info">
         <strong>Chris Hadfield</strong> is a famous retired Canadian astronaut. Most notable for using social media while onboard the International Space Station (ISS), leading to increased public interest in outer-space exploration.
       </p>
@@ -206,7 +150,7 @@ footer picture of earth from space - fixed in background
     <section class="find-out-more">  
       <h2>Learn more about Chris</h2>
       <nav class="external-links">
-        <!-- fcc _blank opens new tab -->
+        <!-- fcc required: target="_blank" Opens the link in a new tab -->
         <a class="off-page-nav-link"
            target="_blank"
            rel="noreferrer"
@@ -230,7 +174,6 @@ footer picture of earth from space - fixed in background
 <footer>
   <nav class="footer-nav">
     <h2 class="footer-h2">Created by jloffler 2021</h2>
-    <!-- <h2 class="footer-h2">Find Me at Github</h2> -->
     <ul>
       <li><a class="footer-link" href="https://github.com/jloffler/tribute-page-fcc">Source Code</a></li>
       <li><a class="footer-link" href="https://github.com/jloffler">Github Profile</a></li>
