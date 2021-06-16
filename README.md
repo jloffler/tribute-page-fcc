@@ -1,9 +1,6 @@
 # Current task
-- cleanup image folder
- - Remove img folder from .gitignore once images are finalized
-- Add freeCodeCamp javascript test script
 - Desktop Size fix partial quote styling
-- Make "scrool down" a scroll down link
+- Make "scroll down" a scroll down link
  
 # Astronaut Chris Hadfield Tribute Webpage
 
