@@ -1,4 +1,8 @@
 # Current task
+- SPLASH QUOTE:
+  - appear only if vh is tall enough and wide enough
+  - Make font-size smaller
+
 - Desktop Size fix partial quote styling
 - Make "scroll down" a scroll down link
  
